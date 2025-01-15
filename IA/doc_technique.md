@@ -22,21 +22,37 @@ IA/
 ---
 
 ## Installation
-### Prérequis
-- Python 3.8 ou supérieur
-- Pip (Gestionnaire de paquets Python)
 
-### Étapes
-1. Cloner le projet :
+### Prérequis
+- **Python** : Version 3.8 ou supérieure. Téléchargeable depuis [python.org](https://www.python.org/downloads/).
+- **Pip** : Gestionnaire de paquets Python (installé par défaut avec Python).
+- **Git** : Pour cloner le projet (facultatif mais recommandé).
+
+### Étapes d'installation
+1. **Installer Python et pip :**
+    - Sous Windows/MacOS/Linux, téléchargez et installez Python depuis [python.org](https://www.python.org/downloads/). Assurez-vous de cocher l'option **"Add Python to PATH"** lors de l'installation.
+    - Vérifiez l'installation avec les commandes suivantes :
+      ```bash
+      python --version
+      pip --version
+      ```
+    - pour installer en ligne de commandes :
+      ```bash
+      pip install
+      ```
+
+2. **Cloner le projet :**
    ```bash
-   git clone <URL-du-répertoire>
+   git clone <https://github.com/kyuming2005/SLAM_ou_SISR>
    cd IA
    ```
-2. Installer les dépendances :
-   ```bash
-   pip install -r requirements.txt
-   ```
-
+   
+3. **Installation des dépendances**
+    ```bash
+   pip install streamlit
+   pip install matplotlib
+    ```
+4. 
 ---
 
 ## Description des Fichiers
@@ -106,6 +122,3 @@ pytest tests/test_classifier.py
 
 
 ---
-
-## Auteur
-Ce projet a été développé dans le cadre d'un atelier d'introduction à l'IA et à l'automatisation avec CI/CD.
