@@ -47,8 +47,9 @@ Assurez-vous que Python 3.10 ou supérieur est installé sur votre machine.
 ### Étapes d'installation
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/orientation-sisr-slam.git
-   cd orientation-sisr-slam
+   git clone https://github.com/kyuming2005/SLAM_ou_SISR
+   cd Slam_ou_SISR 
+   cd IA
    ```
    ou télécharger la version ZIP du fichier
 2. installer les dépendances:
